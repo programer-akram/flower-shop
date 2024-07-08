@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    max-width: 1440px;
+}
+
+
+/* banner-styles */
+header{
+    max-width: 1440px;
+    /* width: 100%; */
+    height: 650px;
+    background-color: #E554731A;
+    margin: 0 auto;
+}
+
+
+.banner-container{
+    display: flex;
+    width:90%;
+    height: 650px;
+    margin: 0 auto;
+    gap: 50px;
+
+
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 147px;
+
+}
+
+.banner-btn{
+color: white;
+border-radius: 8px;
+height: 50px;
+width: 120px;
+margin-right: 370px;
+background-color: #E55473;
+
+}
+
+.banner-image img{
+    width: 476px;
+    height: 500px;
+    padding-top: 150px;
+
+}
+
+
+/* feature-section */
+.featured-section{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 110px;
+    border: 2px solid red;
+}
+
+.feature-text{
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 45px;
+    border: 2px solid red;
+
+}
+
+.featured-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    border: 2px solid red;
+
+
+}
+
+.featured-images img{
+    height: 350px;
+    width: 300px;
+    padding: 25px 20px 0px 20px;
+    border: 2px solid red;
+
+}
+
+
+#feature-img-1{
+    background-color: #f4cbde;
+}
+#feature-img-2{
+    background-color: #0597A026;
+}
+#feature-img-3{
+    background-color: #477D1126;
+}
+
+
+.image-border{
+    border-radius: 300px 300px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid red;
+
+}
+
+
+/* service-section */
+.service-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 100px;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    background-color: #2727270D;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+
+
+/* footer */
+footer{
+    max-width: 1440px;
+    height: 240px; 
+    text-align: center;
+    padding: 78px 270px;
+    color: white;
+    background-color: #111010;
+    border: 2px solid red;
+
+} 
+
+.flowerSpan{
+    color: #E55473;
+}
