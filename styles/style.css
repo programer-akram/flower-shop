@@ -7,6 +7,11 @@ body{
     max-width: 1440px;
 }
 
+/* shared styles */
+.section-title{
+    font-size: 25px;
+    font-weight: 600;
+}
 
 /* banner-styles */
 header{
@@ -41,6 +46,7 @@ header{
 
 .banner-btn{
 color: white;
+border: none;
 border-radius: 8px;
 height: 50px;
 width: 120px;
@@ -62,14 +68,12 @@ background-color: #E55473;
     margin: 0 auto;
     width: 90%;
     margin-top: 110px;
-    border: 2px solid red;
 }
 
 .feature-text{
     text-align: center;
     padding: 0px 200px 0px 200px;
     margin-bottom: 45px;
-    border: 2px solid red;
 
 }
 
@@ -78,7 +82,6 @@ background-color: #E55473;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
-    border: 2px solid red;
 
 
 }
@@ -87,7 +90,6 @@ background-color: #E55473;
     height: 350px;
     width: 300px;
     padding: 25px 20px 0px 20px;
-    border: 2px solid red;
 
 }
 
@@ -106,7 +108,6 @@ background-color: #E55473;
 .image-border{
     border-radius: 300px 300px 0px 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: 2px solid red;
 
 }
 
@@ -122,9 +123,53 @@ background-color: #E55473;
     background-color: #2727270D;
     font-size: 12px;
     text-align: center;
-    border: 2px solid red;
 }
 
+
+/* hot-deal-section */
+.hot-deal-section{
+    max-width:1440px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+    padding: 60px 200px;
+    gap: 50px;
+    text-align: center;
+    background-color: #E554730D;
+
+}
+
+.shop-now-btn{
+    width: 100px;
+    height: 34px;
+    border: none;
+    color: white;
+    background-color: #E55473;
+    border-radius: 5px;
+}
+
+/* instagram section */
+.instagram-section{
+    /* margin: 100px 200px; */
+    margin-bottom: 100px;
+    max-width: 1440px;
+
+}
+
+.instagram-text{
+    text-align: center;
+}
+
+.instagram-images{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+    padding: 40px 90px;
+    justify-content: center;
+
+}
 
 
 /* footer */
@@ -135,7 +180,6 @@ footer{
     padding: 78px 270px;
     color: white;
     background-color: #111010;
-    border: 2px solid red;
 
 } 
 
